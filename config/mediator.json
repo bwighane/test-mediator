@@ -6,7 +6,7 @@
     "defaultChannelConfig": [
       {
         "name": "transformation",
-        "urlPattern": "/transform",
+        "urlPattern": "/mhfr-facilities/",
         "alerts": [],
         "txRerunAcl": [],
         "txViewFullAcl": [],
@@ -23,7 +23,7 @@
           }
         ],
         "allow": [
-          "admin"
+          "mhfr"
         ],
         "type": "http"
       }

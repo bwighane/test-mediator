@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "A transformation mediator",
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "nodemon lib/index.js"
   },
   "dependencies": {
     "async": "^1.4.2",
+    "axios": "^0.18.0",
     "body-parser": "^1.10.2",
     "confit": "^2.0.3",
     "express": "^4.16.3",
